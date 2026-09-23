@@ -1,0 +1,298 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+%-------------------------
+% Required Packages
+%-------------------------
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+%-------------------------
+% Colors
+%-------------------------
+\definecolor{NavyBlue}{RGB}{20, 45, 80}
+
+%-------------------------
+% Page Style
+%-------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-------------------------
+% Sections Formatting
+%-------------------------
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries\color{NavyBlue}
+}{}{0em}{}[\color{NavyBlue}\titlerule \vspace{-5pt}]
+
+% Ensure PDF is machine readable / ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom Commands
+%-------------------------
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{
+    \begin{itemize}[leftmargin=0.0in, label={}]
+}
+
+\newcommand{\resumeSubHeadingListEnd}{
+    \end{itemize}
+}
+
+\newcommand{\resumeItemListStart}{
+    \begin{itemize}
+}
+
+\newcommand{\resumeItemListEnd}{
+    \end{itemize}\vspace{-5pt}
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
+%-------------------------------------------
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape SAYAN BHATTACHARYYA} \\ \vspace{4pt}
+    Kolkata, West Bengal \\ \vspace{4pt}
+    \small
+    \raisebox{-0.1\height}{\faPhone}\ +91 8637016619 \quad
+    \href{mailto:sayan4456789@gmail.com}
+    {\raisebox{-0.1\height}{\faEnvelope}\ \underline{sayan4456789@gmail.com}} \quad
+    \href{https://www.linkedin.com/in/sayan-bhattacharyya11/}
+    {\raisebox{-0.1\height}{\faLinkedin}\ \underline{linkedin.com/in/sayan-bhattacharyya11}} \quad
+    \href{https://github.com/Sayan156}
+    {\raisebox{-0.1\height}{\faGithub}\ \underline{github.com/Sayan156}}
+\end{center}
+\vspace{-6pt}
+\vspace{-6pt}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{
+Final-year B.Tech Computer Science student at Narula Institute of Technology with hands-on experience in backend development and machine learning. Skilled in Java, Spring Boot, REST APIs, and Python, with experience building practical software and data-driven applications.
+
+
+}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+ \resumeSubheading
+  {Narula Institute of Technology}{2023 -- Present}
+  {B.Tech in Computer Science and Engineering}{\textbf{CGPA: 8.35/10 (up to 6th Sem.)}}
+  \resumeSubItem{Kolkata, West Bengal}
+  \vspace{5pt}
+
+    \resumeSubheading
+      {Rasulpur B.M High School}{2023}
+      {Higher Secondary Education (W.B.C.H.S.E)}{\textbf{Percentage: 81.2\%}}
+      \vspace{5pt}
+
+    \resumeSubheading
+      {Rasulpur B.M High School}{2021}
+      {Secondary Education (W.B.B.S.E)}{\textbf{Percentage: 94.8\%}}
+
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, SQL} \\
+     \textbf{Technologies}{: Spring Boot, JDBC, Scikit-learn} \\
+     \textbf{Database}{: MySQL,PostgreSQL}
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+
+%-----------PROJECT 1-----------
+\resumeProjectHeading
+    {\textbf{DevPilot -- AI-Powered Codebase Assistant} $|$ \emph{Java, Spring Boot, Next.js, PostgreSQL, RAG}}
+    {
+    \href{https://github.com/Sayan156/Dev-Pilot}
+    {\raisebox{-0.1\height}{\faGithub}}
+    }
+\resumeItemListStart
+    \resumeItem{Built a full-stack AI codebase assistant that indexes repositories and enables context-aware developer queries.}
+    \resumeItem{Implemented RAG-based retrieval using vector embeddings and PostgreSQL with pgvector for semantic code search.}
+    \resumeItem{Developed GitHub authentication and a Next.js interface for repository management and AI-assisted code exploration.}
+\resumeItemListEnd
+\vspace{-13pt}
+
+%-----------PROJECT 2-----------
+\resumeProjectHeading
+    {\textbf{ChurnShield -- Customer Churn Prediction System} $|$ \emph{Python, Scikit-learn, Pandas, NumPy, Streamlit}}
+    {
+    \href{https://github.com/Sayan156/Churn-Shield-Project}
+    {\raisebox{-0.1\height}{\faGithub}}
+    }
+\resumeItemListStart
+    \resumeItem{Built a customer churn prediction system with data preprocessing and multiple machine learning models.}
+    \resumeItem{Implemented a Stacking Classifier with SHAP-based explanations for interpretable churn predictions.}
+    \resumeItem{Developed a Streamlit application for interactive churn prediction and model analysis.}
+\resumeItemListEnd
+\vspace{-13pt}
+
+%-----------PROJECT 3-----------
+\resumeProjectHeading
+    {\textbf{WebScholar - Smart Research Assistant} $|$ \emph{Java, Spring Boot, JavaScript, Gemini API, REST APIs}}
+    {
+    \href{https://github.com/Sayan156/Research-Assistant}
+    {\raisebox{-0.1\height}{\faGithub}}
+    }
+\resumeItemListStart
+    \resumeItem{Built a Chrome extension that summarizes selected webpage content using the Google Gemini API.}
+    \resumeItem{Implemented persistent, website-specific research notes using Chrome Local Storage.}
+    \resumeItem{Developed a Spring Boot REST backend to connect the extension with Gemini for end-to-end research assistance.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Programming in Java — IIT Kharagpur (NPTEL)}{}
+      {Elite + Gold Certification | Top 1\%}{}
+
+    \vspace{4pt}
+
+    \resumeSubheading
+      {AI-ML Virtual Internship -- EduSkills}{}
+      {AICTE | 10 Weeks | 2025}{}
+
+    \vspace{4pt}
+
+    \resumeSubheading
+      {SQL (Intermediate) -- HackerRank}{}
+      {Skill Certification | 2026}{}
+
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+%-----------ADDITIONAL INFORMATION-----------
+\section{Additional Information}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages Known}{: English, Bengali, Hindi} \\
+    \textbf{Problem Solving}{: Solved 130+ problems on LeetCode}
+    }}
+ \end{itemize}
+
+
+\end{document}
+```
+
+For each project, replace only:
+
+```latex
+PASTE_GITHUB_LINK_HERE
+```
+
+with the actual repository URL, e.g.:
+
+```latex
+\href{https://github.com/Sayan156/DevPilot}
+```
+
+The GitHub icon will then appear on the **far right of the project heading**, while the project name and all existing text remain unchanged.
