@@ -66,7 +66,7 @@
                     </p>
                     <div class="metric-row">
                         <div class="metric">
-                            <strong>3</strong>
+                            <strong>5</strong>
                             <span>Projects</span>
                         </div>
                         <div class="metric">
@@ -169,7 +169,15 @@
                         <span>Internship</span>
                     </div>
                     <div>
-                        <i class="bx bx-data"></i>
+                        <span class="summary-icon" aria-label="AI ML icon">
+                            <svg viewBox="0 0 52 52" role="img">
+                                <circle cx="17" cy="18" r="4"></circle>
+                                <circle cx="35" cy="14" r="4"></circle>
+                                <circle cx="34" cy="34" r="4"></circle>
+                                <circle cx="16" cy="36" r="4"></circle>
+                                <path d="M20.5 18.8 31.5 15.2M20.2 20.8 30.8 31.2M19.8 34.8 30.2 34M35 18v12"></path>
+                            </svg>
+                        </span>
                         <strong>AI-ML</strong>
                         <span>Virtual Internship</span>
                     </div>
@@ -262,7 +270,12 @@
 
                     <article class="project-card">
                         <div class="project-media">
-                            <i class="bx bx-line-chart"></i>
+                            <svg class="project-icon-svg" viewBox="0 0 64 64" role="img" aria-label="Churn prediction icon">
+                                <path d="M12 50h40"></path>
+                                <path d="M16 44V22M30 44V14M44 44V30"></path>
+                                <path d="m14 34 12-10 10 8 14-16"></path>
+                                <path d="M43 16h7v7"></path>
+                            </svg>
                         </div>
                         <div class="project-body">
                             <p class="project-type">Machine Learning</p>
@@ -298,6 +311,57 @@
                             </div>
                             <div class="project-actions">
                                 <a href="https://github.com/Sayan156/Research-Assistant" target="_blank">Code <i class="bxl bx-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <svg class="project-icon-svg" viewBox="0 0 64 64" role="img" aria-label="Library system icon">
+                                <path d="M14 10h12a8 8 0 0 1 8 8v36a8 8 0 0 0-8-6H14z"></path>
+                                <path d="M50 10H38a8 8 0 0 0-8 8v36a8 8 0 0 1 8-6h12z"></path>
+                                <path d="M20 20h8M20 28h8M44 20h-8M44 28h-8"></path>
+                            </svg>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-type">Desktop / Database</p>
+                            <h3>BookNest -- Library Management System</h3>
+                            <p>Built a JavaFX-based library management system with authentication and multiple role-based login flows. Implemented student and book table management, issue and return tracking, and fine collection workflows. Integrated MySQL for persistent records and reliable administrative operations.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>JavaFX</span>
+                                <span>MySQL</span>
+                                <span>Authentication</span>
+                                <span>Role-Based Access</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/Sayan156/Library-management-System-project" target="_blank">Code <i class="bxl bx-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-media">
+                            <svg class="project-icon-svg" viewBox="0 0 64 64" role="img" aria-label="Email assistant icon">
+                                <path d="M10 18h44v28H10z"></path>
+                                <path d="m12 20 20 16 20-16"></path>
+                                <path d="M44 38h10M49 33v10"></path>
+                            </svg>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-type">Chrome Extension / AI</p>
+                            <h3>ToneMail -- Smart Email Reply Assistant</h3>
+                            <p>Built a Chrome extension for Gmail that dynamically injects an AI reply button beside the send button whenever a compose window is open. Developed a Spring Boot backend API to connect the extension with Gemini and generate context-aware replies from the visible email content. Added tone selection so users can tailor responses before inserting them into the draft.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>JavaScript</span>
+                                <span>Chrome Extension</span>
+                                <span>Gmail</span>
+                                <span>Gemini API</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/Sayan156/email_writer_extension" target="_blank">Code <i class="bxl bx-github"></i></a>
                             </div>
                         </div>
                     </article>
@@ -394,22 +458,25 @@
                     </article>
                 </div>
 
-                <form class="contact-form" action="#" method="post">
+                <form class="contact-form" action="https://formsubmit.co/sayan4456789@gmail.com" method="post">
+                    <input type="hidden" name="_subject" value="New portfolio contact message">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
                     <div class="form-row">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your name">
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
                     </div>
                     <div class="form-row">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="your.email@example.com">
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
                     </div>
                     <div class="form-row">
                         <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="Project inquiry">
+                        <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
                     </div>
                     <div class="form-row">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" placeholder="Write your message"></textarea>
+                        <textarea id="message" name="message" rows="6" placeholder="Write your message" required></textarea>
                     </div>
                     <button class="btn contact-btn" type="submit">Send Message</button>
                 </form>

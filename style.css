@@ -564,7 +564,8 @@ a{
     align-items: center;
 }
 
-.hero-summary i{
+.hero-summary i,
+.summary-icon{
     grid-row: span 2;
     width: 52px;
     height: 52px;
@@ -575,6 +576,21 @@ a{
     background: #D4AF37;
     color: black;
     font-size: 27px;
+}
+
+.summary-icon svg{
+    width: 34px;
+    height: 34px;
+    fill: none;
+    stroke: black;
+    stroke-width: 3.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.summary-icon circle{
+    fill: black;
+    stroke: none;
 }
 
 .hero-summary strong{
@@ -696,6 +712,16 @@ a{
 .project-media i{
     color: #D4AF37;
     font-size: 54px;
+}
+
+.project-icon-svg{
+    width: 58px;
+    height: 58px;
+    fill: none;
+    stroke: #D4AF37;
+    stroke-width: 3.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .project-body{
@@ -1077,10 +1103,16 @@ a{
     }
 
     .hero-summary i,
+    .summary-icon,
     .contact-card i{
         width: 46px;
         height: 46px;
         font-size: 24px;
+    }
+
+    .summary-icon svg{
+        width: 30px;
+        height: 30px;
     }
 
     .project-spotlight{
